@@ -5,7 +5,7 @@ body{
     font-family: 'Raleway', sans-serif;
     margin: 0px;
     margin: auto;
-    max-width:600px
+    max-width:60%
 }
 
 :root{
@@ -35,6 +35,7 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    border: 1px solid var(--primary-color);
 }
 .link-primary {
     background-color: var(--primary-color);
@@ -115,15 +116,30 @@ hr{
 /* section */
 .section {
     border-radius: 1rem;
+    padding-top:1rem;
 }
 .section h3 {
      text-align:center;
      font-weight: bold;
-     padding: 2rem;
 }
 
 .ow {
     background-color: var(--off-white);
+    margin-top: 0rem;
+}
+
+.section .link-primary:hover {
+    border: 1px solid var(--primary-color) ;
+    background-color: white;
+    color: var(--primary-color);
+    
+}
+
+.section .link-secondary:hover {
+    border: 1px solid var(--primary-color) ;
+    background-color: var(--primary-color);
+    color: var(--dark-red);
+    
 }
 
 /* footer */
