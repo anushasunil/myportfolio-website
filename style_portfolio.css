@@ -4,6 +4,8 @@
 body{
     font-family: 'Raleway', sans-serif;
     margin: 0px;
+    margin: auto;
+    max-width:600px
 }
 
 :root{
@@ -128,7 +130,9 @@ footer {
     text-align: center;
     color: black;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     margin-top: 1rem;
+   
 }
 
 footer .link {
