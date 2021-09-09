@@ -113,6 +113,9 @@ hr{
 }
 
 /* section */
+.section {
+    border-radius: 1rem;
+}
 .section h3 {
      text-align:center;
      font-weight: bold;
