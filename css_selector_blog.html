@@ -170,13 +170,13 @@
                                 </tr>
                                 <tr>
                                     <td>:active</td>
-                                    <td>a:active</td>
+                                    <td>a<span>:active</span></td>
                                     <td>It selects the element <span class="eg-highlight">after user clicks on it</span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>:root</td>
-                                    <td>:root</td>
+                                    <td><span class="eg-highlight">:root</span></td>
                                     <td>The root element represents the html element. :root <span
                                             class="eg-highlight">selects the root element.</span> </td>
                                 </tr>
@@ -189,7 +189,7 @@
                                 <h3 class="css-selector-main-type" style="text-align: left;">  Pseudo Element </h3>
                             </li>
                             <p class="blog-paragraph">The Pseudo Element selects a specific part of the content for styling.
-                                table<br>
+                                <br>
                                 The commonly used Pseudo elements are: </p>
                                 <table>
                                     <tr>
@@ -200,46 +200,76 @@
                                     <tr>
                                         <td>::after</td>
                                         <td>div::after</td>
-                                        <td></td>
+                                        <td>Applies the CSS right after the specified element</td>
                                     </tr>
                                     <tr>
                                         <td>::before</td>
                                         <td>div::before</td>
-                                        <td></td>
+                                        <td>Applies the CSS just before the specified element</td>
                                     </tr>
                                     <tr>
                                         <td>::first-letter</td>
                                         <td>p::first-letter</td>
-                                        <td></td>
+                                        <td>Selects the first word of the content in the specified element.</td>
                                     </tr>
                                     <tr>
                                         <td>::first-line</td>
                                         <td>p::first-line</td>
-                                        <td></td>
+                                        <td>Selects the first line of the view of the content in the specified element.</td>
                                     </tr>
                                     <tr>
                                         <td>::marker</td>
                                         <td>::marker</td>
-                                        <td></td>
+                                        <td>Selects the markers of the list items.</td>
                                     </tr>
                                     <tr>
                                         <td>::selections</td>
                                         <td>p::selection</td>
-                                        <td></td>
+                                        <td>Selects the portion selected by the user.</td>
                                     </tr>
                                 </table>
-
-                        </div>
+                            </div>
+                    </section>
+                    <section class="section">
+                        <div class="container container-center">
+                            <li>
+                                <h3 class="css-selector-main-type" style="text-align: left;">Attribute Selector</h3>
+                            </li>
+                            <p class="blog-paragraph">The Attribute Selector selects an HTML element having a specified attribute or an attribute value.<br>
+                                The commonly used Attribute Selectors are: </p>
+                                <table>
+                                    <tr>
+                                        <th>Selector</th>
+                                        <th>Examples</th>
+                                        <th>Description</th>
+                                    </tr>
+                                    <tr>
+                                        <td>[attribute]</td>
+                                        <td>[name]</td>
+                                        <td>Selects all elements having attribute 'name'
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>[attribute=value]</td>
+                                        <td>[name="std"]</td>
+                                        <td>Selects all elements having attribute 'name' with value "std"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[attribute~=value]</td>
+                                        <td>[name="section"]</td>
+                                        <td>Selects the element who has attribute 'name' and contains the word 'std' in the attribute value. </td>
+                                    </tr>
+                                    <tr>
+                                        <td>[attribute|="value"]</td>
+                                        <td>[name="btn"]</td>
+                                        <td>Selects all the elements having attribute as 'name' with values starting with the word 'btn'</td>
+                                    </tr>
+                                </table>
+                            </div>
                     </section>
                 </ul>
 
-               
-                
-                Attribute Selectors
-                The Attribute Selector selects an HTML element having a specified attribute or an attribute value.
-                The most commonly used Attribute Selectors are:
-
-                table</p>
+            </p>
         </div>
     </section>
 
