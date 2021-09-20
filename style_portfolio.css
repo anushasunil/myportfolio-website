@@ -23,7 +23,6 @@ body{
 }
 
 .container-center {
-    max-width: 60%;
     margin: auto;
     padding-bottom : 1rem;
 }
@@ -144,6 +143,9 @@ table,th,td {
 th,td {
     border-bottom: 0.5px solid var(--dark-grey);
 }
+code {
+    font-size: 1rem;
+}
 
 
 .ow {
@@ -156,6 +158,10 @@ th,td {
     background-color: white;
     
     
+}
+
+.black-highlight {
+    font-weight: bold;
 }
 
 .section .link-secondary:hover {
