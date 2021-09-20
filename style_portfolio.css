@@ -12,6 +12,7 @@ body{
     --primary-color :#FBBF24;
     --dark-grey:#6B7280;
     --off-white:#E5E7EB;
+    --lighter-white: #F3F4F6;
     --dark-red: rgb(49,8,8);
 }
 
@@ -22,7 +23,7 @@ body{
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 60%;
     margin: auto;
     padding-bottom : 1rem;
 }
@@ -134,6 +135,16 @@ hr{
     font-weight: bold;
 }
 
+table,th,td {
+    margin-top: 0.5rem;
+    background-color: var(--lighter-white);
+    padding: 0.4rem;
+}
+
+th,td {
+    border-bottom: 0.5px solid var(--dark-grey);
+}
+
 
 .ow {
     background-color: var(--off-white);
@@ -143,7 +154,7 @@ hr{
 .section .link-primary:hover {
     border: 1px solid var(--primary-color) ;
     background-color: white;
-    color: var(--primary-color);
+    
     
 }
 
