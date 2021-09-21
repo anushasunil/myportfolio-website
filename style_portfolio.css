@@ -112,9 +112,13 @@ hr{
 }
 
 /* section */
+
+
 .section {
     border-radius: 1rem;
-    padding-top:1rem;
+    padding-top: 0.3rem;
+    
+    padding-bottom: 0.5rem;
 }
 .section h3 {
      text-align:center;
@@ -143,14 +147,40 @@ table,th,td {
 th,td {
     border-bottom: 0.5px solid var(--dark-grey);
 }
+
+ol {
+    margin-block-start: 0rem;
+    padding-inline-start: 0rem;
+}
+
 code {
     font-size: 1rem;
 }
 
+.contents h3 {
+    margin-bottom: 0.5rem;
+}
+
+.contents {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -0.5rem;
+   
+}
+
+.contents p{
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
 
 .ow {
-    background-color: var(--off-white);
+    background-color: var(--lighter-white);
     margin-top: 0rem;
+    
+}
+
+::marker {
+    font-size: 1.3rem;
 }
 
 .section .link-primary:hover {
