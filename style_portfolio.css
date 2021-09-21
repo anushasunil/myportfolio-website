@@ -133,6 +133,11 @@ hr{
     margin-bottom: 0.5rem;
 }
 
+.syntax-img {
+    margin-left: 5%;
+    width:80%
+}
+
 .eg-highlight {
     color: var(--primary-color);
     font-weight: bold;
