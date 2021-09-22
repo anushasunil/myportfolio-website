@@ -5,7 +5,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
     margin: auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 :root {
@@ -141,7 +141,7 @@ hr {
 
 .syntax-img {
     margin-left: 5%;
-    width: 80%
+    width: 40%;
 }
 
 .eg-highlight {
