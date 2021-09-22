@@ -5,7 +5,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
     margin: auto;
-    max-width: 60%
+    max-width: 800px;
 }
 
 :root {
@@ -33,9 +33,11 @@ hr {
 
 /* links */
 .link {
+    max-width: min-content;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border: 1px solid var(--primary-color);
+    
 }
 
 .link-primary {
