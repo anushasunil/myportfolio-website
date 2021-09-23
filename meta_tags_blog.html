@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS <meta> tags</title>
+    <title>CSS
+        <meta> tags</title>
     <link rel="stylesheet" href="style_portfolio.css">
 </head>
+
 <body>
     <nav class="navigation container">
         <div class="nav-brand">IAmDeveloper</div>
@@ -21,59 +24,90 @@
             </li>
         </ul>
     </nav>
-    
+
     <header class="hero">
-        <h1 class="hero-heading">CSS <span class="heading inverted" style="color: var(--primary-color">Meta tags</span></h1>
+        <h1 class="hero-heading">CSS <span class="heading inverted" style="color: var(--primary-color">Meta tags</span>
+        </h1>
         <img class="hero-img" src="images/meta tags blog.svg" alt="currently unavailable img">
     </header>
 
     <div class="container container-center">
-        <p>Meta tags provide information about the properties of the webpage given to the browser. It will impact how the page will be displayed in the browser. <br><br>They don't appear on the webpage, but they are present in the head tag of the HTML document, as they are machine parsable, web browsers can comprehend. They are the metadata of the webpage. <br><br>Meta tags are crucial as they will tell the browser; what the webpage is all about and; how it can display in the search results in the browser. It will increase the web page's visibility. Thus, they are crucial for Search Engine Optimization.</p>
+        <p>Meta tags provide information about the properties of the webpage given to the browser. It will impact how
+            the page will be displayed in the browser. <br><br>They don't appear on the webpage, but they are present in
+            the head tag of the HTML document, as they are machine parsable, web browsers can comprehend. They are the
+            metadata of the webpage. <br><br>Meta tags are crucial as they will tell the browser; what the webpage is
+            all about and; how it can display in the search results in the browser. It will increase the web page's
+            visibility. Thus, they are crucial for Search Engine Optimization.</p>
         <ul>
             <li>
                 <div class="container container-center">
                     <h3 class="meta-tags-main-type"><code>charset </code> attribute</h3>
-                    <p>It tells the browse in which character set, the website is written. <br>The above code tells the browser to use UTF-8 character encoding. UTF-8 is the most common character encoding used. It encodes human-readable text into a machine language or vice versa.</p><code><<span class="black-highlight">meta <span
-                        class="eg-highlight">charset</span>="UTF-8"</span>></code>
+                    <p>It tells the browse in which character set, the website is written. <br>The above code tells the
+                        browser to use UTF-8 character encoding. UTF-8 is the most common character encoding used. It
+                        encodes human-readable text into a machine language or vice versa.</p><code>
+                        <<span class="black-highlight">meta <span class="eg-highlight">charset</span>="UTF-8"</span>>
+                    </code>
                 </div>
             </li>
             <li>
                 <div class="container container-center">
                     <h3 class="meta-tags-main-type"><code>content </code> attribute</h3>
-                    <p>It gives the value of the information associated with the http-equiv or name attribute.</p><code><<span class="black-highlight">meta <span
-                        class="eg-highlight">content</span>="text"</span>></code>
+                    <p>It gives the value of the information associated with the http-equiv or name attribute.</p><code>
+                        <<span class="black-highlight">meta <span class="eg-highlight">content</span>="text"</span>>
+                    </code>
                 </div>
             </li>
             <li>
                 <div class="container container-center">
-                    <h3 class="meta-tags-main-type"><code>http-equiv  </code>attribute</h3>
-                    <p>It acts as an HTTP response header (carries information for Request and Response body) to define settings without using an actual HTTP response header. <br>The HTTP-equiv and content pair provide the HTTP header with its corresponding value.</p><code><
-                        <span class="black-highlight">meta <span
-                        class="eg-highlight">http-equiv</span>="refresh" content="30"</span>></code>
+                    <h3 class="meta-tags-main-type"><code>http-equiv </code>attribute</h3>
+                    <p>It acts as an HTTP response header (carries information for Request and Response body) to define
+                        settings without using an actual HTTP response header. <br>The HTTP-equiv and content pair
+                        provide the HTTP header with its corresponding value.</p><code>
+                        < <span class="black-highlight">meta <span class="eg-highlight">http-equiv</span>="refresh"
+                            content="30"</span>>
+                    </code>
                     <p>
-                        Values of http-equiv:  
+                        Values of http-equiv:
                     </p>
                     <ol>
                         <li>
                             <h4><code>content-security-policy</code></h4>
-                            <p class="blog-paragraph"> It adds security to the webpage as it protects from data theft, injection, or other malpractice.
-                                <br><br><code><<span class="black-highlight" >meta http-equiv=<span class="eg-highlight">"content-security-policy" </span>content="default-src'self'"</span>></code>
+                            <p class="blog-paragraph"> It adds security to the webpage as it protects from data theft,
+                                injection, or other malpractice.
+                                <br><br><code>
+                                    <<span class="black-highlight">meta http-equiv=<span
+                                            class="eg-highlight">"content-security-policy"
+                                        </span>content="default-src'self'"</span>>
+                                </code>
                         </li>
                         <li>
                             <h4><code>content-type</code></h4>
-                            <p class="blog-paragraph"> Specifies the type of the data in the body of an entity by sending type/subtype as information.
-                                <br><br><code><<span class="black-highlight" >meta http-equiv=<span class="eg-highlight">"content-type" </span>content="text/html"</span>></code>
+                            <p class="blog-paragraph"> Specifies the type of the data in the body of an entity by
+                                sending type/subtype as information.
+                                <br><br><code>
+                                    <<span class="black-highlight">meta http-equiv=<span
+                                            class="eg-highlight">"content-type" </span>content="text/html"</span>>
+                                </code>
                         </li>
                         <li>
                             <h4><code>default-style</code></h4>
-                            <p class="blog-paragraph"> It tells to use the specified stylesheet as the default stylesheet if no stylesheet is linked.
-                                <br><br><code><<span class="black-highlight" >meta http-equiv=<span class="eg-highlight">"default-style" </span>content="default_stylesheet.css"</span>></code>
+                            <p class="blog-paragraph"> It tells to use the specified stylesheet as the default
+                                stylesheet if no stylesheet is linked.
+                                <br><br><code>
+                                    <<span class="black-highlight">meta http-equiv=<span
+                                            class="eg-highlight">"default-style"
+                                        </span>content="default_stylesheet.css"</span>>
+                                </code>
                         </li>
                         <li>
                             <h4><code>refresh</code></h4>
-                            <p class="blog-paragraph">Defines a time after which the document has to refresh itself. In the code below, it will refresh the page after every 30 seconds.
-                                <br><br><code><<span class="black-highlight" >meta http-equiv=<span class="eg-highlight">"refresh" </span>content="30"</span>></code>
-                        </li>    
+                            <p class="blog-paragraph">Defines a time after which the document has to refresh itself. In
+                                the code below, it will refresh the page after every 30 seconds.
+                                <br><br><code>
+                                    <<span class="black-highlight">meta http-equiv=<span class="eg-highlight">"refresh"
+                                        </span>content="30"</span>>
+                                </code>
+                        </li>
                     </ol>
 
                 </div>
@@ -81,34 +115,60 @@
             <li>
                 <div class="container container-center">
                     <h3 class="meta-tags-main-type"><code>name </code> attribute</h3>
-                    <p>It specifies the name of the metadata.</p><code><<span class="black-highlight">meta <span
-                    class="eg-highlight">name</span>="author"</span>content="John Doe" ></code>
+                    <p>It specifies the name of the metadata.</p><code>
+                        <<span class="black-highlight">meta <span
+                                class="eg-highlight">name</span>="author"</span>content="John Doe" >
+                    </code>
                     <ol>
                         <li>
                             <h4><code>applicationName</code></h4>
                             <p class="blog-paragraph">It specifies the name of the web application
-                                <br><br><code><<span class="black-highlight" >meta name=<span class="eg-highlight">"applicationName" </span>content="homepage"</span>></code>
+                                <br><br><code>
+                                    <<span class="black-highlight">meta name=<span
+                                            class="eg-highlight">"applicationName" </span>content="homepage"</span>>
+                                </code>
                         </li>
                         <li>
                             <h4><code>author</code></h4>
                             <p class="blog-paragraph">It specifies the name of the web application
-                                <br><br><code><<span class="black-highlight" >meta name=<span class="eg-highlight">"author" </span>content="John Doe"</span>></code>
+                                <br><br><code>
+                                    <<span class="black-highlight">meta name=<span class="eg-highlight">"author"
+                                        </span>content="John Doe"</span>>
+                                </code>
                         </li>
                         <li>
                             <h4><code>generator</code></h4>
-                            <p class="blog-paragraph">In this tag, we mention the name of the program or software we used to create our website.
-                                <br><br><code><<span class="black-highlight" >meta name=<span class="eg-highlight">"generator" </span>content="FrontPage 4.0"</span>></code>
+                            <p class="blog-paragraph">In this tag, we mention the name of the program or software we
+                                used to create our website.
+                                <br><br><code>
+                                    <<span class="black-highlight">meta name=<span class="eg-highlight">"generator"
+                                        </span>content="FrontPage 4.0"</span>>
+                                </code>
                         </li>
                         <li>
                             <h4><code>keywords</code></h4>
-                            <p class="blog-paragraph">In this tag, we give a list of keywords that will give more information to the search engines. When a user searches for a keyword, that is present in this tag, then the search engine will show this website as one of the search results. <br><br>
+                            <p class="blog-paragraph">In this tag, we give a list of keywords that will give more
+                                information to the search engines. When a user searches for a keyword, that is present
+                                in this tag, then the search engine will show this website as one of the search results.
+                                <br><br>
                                 eg. keywords for a hospital website
-                                <br><br><code><<span class="black-highlight" >meta name=<span class="eg-highlight">"keywords" </span>content="best cancer hospital in India, hospitals in India, the best neurologist in India, a best orthopedic hospital in India, super specialty hospital near me"</span>></code>
+                                <br><br><code>
+                                    <<span class="black-highlight">meta name=<span class="eg-highlight">"keywords"
+                                        </span>content="best cancer hospital in India, hospitals in India, the best
+                                        neurologist in India, a best orthopedic hospital in India, super specialty
+                                        hospital near me"</span>>
+                                </code>
                         </li>
                         <li>
                             <h4><code>viewport</code></h4>
-                            <p class="blog-paragraph">It is the area where our webpage will b displayed. In this tag in the content attribute, the values passed are the width="device-width"  and the initial scale=1.0. <br> Width tells the browser to display the page befitting the device's screen width. The initial scale is the initial zoom when visiting a page.
-                                <br><br><code><<span class="black-highlight" >meta name=<span class="eg-highlight">"viewport" </span>content="width=device-width, initial-scale=1.0"</span>></code>
+                            <p class="blog-paragraph">It is the area where our webpage will b displayed. In this tag in
+                                the content attribute, the values passed are the width="device-width" and the initial
+                                scale=1.0. <br> Width tells the browser to display the page befitting the device's
+                                screen width. The initial scale is the initial zoom when visiting a page.
+                                <br><br><code>
+                                    <<span class="black-highlight">meta name=<span class="eg-highlight">"viewport"
+                                        </span>content="width=device-width, initial-scale=1.0"</span>>
+                                </code>
                         </li>
                     </ol>
                 </div>
@@ -120,11 +180,13 @@
         <div class="footer-header">social media presence </div>
         <ul class="social-links">
             <li class="list-item-inline"><a class="link" href="https://github.com/anushasunil">github</a></li>
-            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/anusha-sunilkumar-064200207/">linkedin</a></li>
+            <li class="list-item-inline"><a class="link"
+                    href="https://www.linkedin.com/in/anusha-sunilkumar-064200207/">linkedin</a></li>
             <li class="list-item-inline"><a class="link" href="https://www.instagram.com/_.anu7/">instagram</a></li>
         </ul>
     </footer>
 
-    
+
 </body>
+
 </html>
